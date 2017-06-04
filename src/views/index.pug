@@ -2,5 +2,11 @@ html
     head
         title= title
     body
-        h1= message
-        h2= message1
+        h1= title
+        p= message
+
+        form(method='POST' action='/search')
+            div.form-group
+                label(for='searchString') Search:
+                input#searchString.form-control(type='text', placeholder='ellery' name='searchString')
+        button.btn.btn-primary(type='submit') Submit

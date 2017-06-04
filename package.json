@@ -1,5 +1,5 @@
 {
-  "name": "mayumi",
+  "name": "orbital",
   "version": "1.0.0",
   "description": "ORBITAL - Example.",
   "main": "dist/app.js",
@@ -25,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "amazon-product-api": "^0.4.3",
     "babel-runtime": "^6.23.0",
     "basic-auth": "^1.1.0",
     "bluebird": "^3.5.0",
